@@ -262,7 +262,7 @@ def chongblock(delaybl):
 def nghingoi(delaymin, delaymax):
 	delay = randint(delaymin, delaymax)
 	for i in range(delay, -1, -1):
-		Write.Print('[NGOC]['+str(i)+']                                                                ',Colors.green_to_blue,interval=0.0001,end='\r')
+		Write.Print('[FRIVE]['+str(i)+']                                                                ',Colors.green_to_blue,interval=0.0001,end='\r')
 		sleep(1)
 
 def main():
